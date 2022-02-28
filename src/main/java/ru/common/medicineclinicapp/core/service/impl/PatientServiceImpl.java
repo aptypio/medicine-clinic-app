@@ -7,12 +7,12 @@ import ru.common.medicineclinicapp.core.service.PatientService;
 
 import java.util.List;
 
-public class PatientServiceImp implements PatientService {
+public class PatientServiceImpl implements PatientService {
 
     private final PatientRepository patientRepository;
 
     @Autowired
-    public PatientServiceImp(PatientRepository patientRepository) {
+    public PatientServiceImpl(PatientRepository patientRepository) {
         this.patientRepository = patientRepository;
     }
 

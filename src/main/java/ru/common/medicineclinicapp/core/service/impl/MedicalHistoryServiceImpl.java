@@ -2,18 +2,17 @@ package ru.common.medicineclinicapp.core.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import ru.common.medicineclinicapp.core.model.entity.MedicalHistory;
-import ru.common.medicineclinicapp.core.model.entity.PatientEntity;
 import ru.common.medicineclinicapp.core.repository.MedicalHistoryRepository;
 import ru.common.medicineclinicapp.core.service.MedicalHistoryService;
 
 import java.util.List;
 
-public class MedicalHistoryServiceImp implements MedicalHistoryService {
+public class MedicalHistoryServiceImpl implements MedicalHistoryService {
 
     private final MedicalHistoryRepository medicalHistoryRepository;
 
     @Autowired
-    public MedicalHistoryServiceImp(MedicalHistoryRepository medicalHistoryRepository) {
+    public MedicalHistoryServiceImpl(MedicalHistoryRepository medicalHistoryRepository) {
         this.medicalHistoryRepository = medicalHistoryRepository;
     }
 
