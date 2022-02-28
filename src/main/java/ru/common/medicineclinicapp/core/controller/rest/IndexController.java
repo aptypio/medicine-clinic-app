@@ -8,7 +8,5 @@ import ru.common.medicineclinicapp.core.service.PatientService;
 @RestController
 @RequestMapping( "/medical")
 public class IndexController {
-
-
     //imp get post methods
 }
