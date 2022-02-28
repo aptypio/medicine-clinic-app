@@ -7,7 +7,7 @@ public interface MedicalCrudService<T> {
 
     List<T> getAll();
 
-    T delete(Long id);
+    void delete(Long id);
 
     T save(T type);
 }
