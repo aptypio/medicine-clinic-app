@@ -3,4 +3,4 @@
 Стек технологий: Java 11, Spring Boot, PostgreSQL, RabbitMQ, LiquiBase, MyBatis, Maven, Docker
 # Medical Data Center Project
 The application receives indicators from medical sensors: "Body temperature", "Blood pressure", "Respiratory function", "Glucose level". The application processes the data and displays a warning about a critical situation.
-Java 8, Spring Boot, PostgreSQL, RabbitMQ, LiquiBase, MyBatis, Maven, Docker
+Java 11, Spring Boot, PostgreSQL, RabbitMQ, LiquiBase, MyBatis, Maven, Docker
